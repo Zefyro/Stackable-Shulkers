@@ -18,4 +18,4 @@ execute as @e[type=item] if entity @s[type=item,nbt={Item:{id:"minecraft:green_s
 execute as @e[type=item] if entity @s[type=item,nbt={Item:{id:"minecraft:red_shulker_box"}}] run function stackable:shulker/main/red
 execute as @e[type=item] if entity @s[type=item,nbt={Item:{id:"minecraft:black_shulker_box"}}] run function stackable:shulker/main/black
 
-
+execute as @a unless score @s VP.Stackable matches 1 run function stackable:vanillaplus
