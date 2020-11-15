@@ -8,4 +8,4 @@ scoreboard players set #Timer Stacker 21
 
 execute unless score #Loaded Stacker matches 1 run scoreboard players set #Loaded Stacker 1
 
-scoreborad objectives add VP.Stackable dummy
+scoreboard objectives add VP.Stackable dummy
