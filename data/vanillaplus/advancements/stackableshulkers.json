@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Stackable Shulkers v0.0.1",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Makes dropped empty shulker boxes stack on ground."
+        },
+        "icon": {
+            "item": "minecraft:shulker_box"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Main": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vanillaplus:root"
+}
